@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">demo</string>
 
-    <string name="main_activity">Main Activity</string>
-    <string name="load_activity">Load Activity</string>
+    <string name="main_activity">Go to Second Activity</string>
+    <string name="load_activity">Go back to main Activity</string>
 
     <string name="fade_in">Fade In</string>
     <string name="fade_inup">Fade In Up</string>
