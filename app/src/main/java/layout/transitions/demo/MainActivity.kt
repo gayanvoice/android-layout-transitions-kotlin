@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         textView.setOnClickListener {
 
             startActivity(intent)
-
             val transitions = Transitions(this@MainActivity)
             transitions.setAnimation(Flip().InX())
 
