@@ -15,8 +15,10 @@ class MainActivity : AppCompatActivity() {
         val textView:TextView = findViewById(R.id.TextView)
         textView.setOnClickListener {
             startActivity(intent)
+
             val transitions = Transitions(this@MainActivity)
-            transitions.getLayouts(R.anim.fade_in, R.anim.fade_out)
+            val fade = Fade()
+            transitions.getLayouts(fade.In())
         }
 
     }
