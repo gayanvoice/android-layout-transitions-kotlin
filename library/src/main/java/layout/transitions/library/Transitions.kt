@@ -6,7 +6,7 @@ import android.content.Context
 
 class Transitions(private val context: Context) {
 
-    fun getLayouts(effects: Array<Int>) {
+    fun setAnimation(effects: Array<Int>) {
         (context as Activity).overridePendingTransition(effects[0], effects[1])
     }
 

@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
             val transitions = Transitions(this@MainActivity)
             val fade = Fade()
-            transitions.getLayouts(fade.In())
+            transitions.setAnimation(fade.In())
         }
 
     }
