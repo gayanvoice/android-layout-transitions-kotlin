@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <alpha android:fromAlpha="0.25"
+        android:toAlpha="0.5"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+
+    <rotate
+        android:fromDegrees="90"
+        android:toDegrees="15"
+        android:pivotX="15"
+        android:pivotY="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="@android:integer/config_mediumAnimTime" />
+
+</set>
