@@ -14,11 +14,12 @@ class MainActivity : AppCompatActivity() {
 
         val textView:TextView = findViewById(R.id.TextView)
         textView.setOnClickListener {
+
             startActivity(intent)
 
             val transitions = Transitions(this@MainActivity)
-            val fade = Fade()
-            transitions.setAnimation(fade.In())
+            transitions.setAnimation(Fade().In())
+
         }
 
     }
