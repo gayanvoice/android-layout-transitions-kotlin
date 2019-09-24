@@ -6,19 +6,19 @@ class Fade {
     }
 
     fun InUp(): Array<Int>{
-        return arrayOf(R.anim.fade_in_up, R.anim.fade_out_down)
+        return arrayOf(R.anim.fade_in_up, R.anim.fade_out_up)
     }
 
     fun InDown(): Array<Int>{
-        return arrayOf(R.anim.fade_in_down, R.anim.fade_out_up)
+        return arrayOf(R.anim.fade_in_down, R.anim.fade_out_down)
     }
 
     fun InLeft(): Array<Int>{
-        return arrayOf(R.anim.fade_in_left, R.anim.fade_out_right)
+        return arrayOf(R.anim.fade_in_left, R.anim.fade_out_left)
     }
 
     fun InRight(): Array<Int>{
-        return arrayOf(R.anim.fade_in_right, R.anim.fade_out_left)
+        return arrayOf(R.anim.fade_in_right, R.anim.fade_out_right)
     }
 
 
