@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
             val transitions = Transitions(this@MainActivity)
-            transitions.setAnimation(Zoom().In())
+            transitions.setAnimation(Flip().InX())
 
         }
 
