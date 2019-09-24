@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">demo</string>
+
+    <string name="fade_in">Fade In</string>
+    <string name="fade_inup">Fade In Up</string>
+    <string name="fade_indown">Fade In Down</string>
+    <string name="fade_inleft">Fade In Left</string>
+    <string name="fade_inright">Fade In Right</string>
+
 </resources>
