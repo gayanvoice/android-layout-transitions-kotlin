@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val intent = Intent(this, LoadActivity::class.java)
 
-        val textView:TextView = findViewById(R.id.TextView)
+        val textView:TextView = findViewById(R.id.textView)
         textView.setOnClickListener {
 
             startActivity(intent)
