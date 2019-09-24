@@ -10,4 +10,7 @@ class Transitions(private val context: Context) {
         (context as Activity).overridePendingTransition(animIn, animOut)
     }
 
+    fun type(){
+
+    }
 }
