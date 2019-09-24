@@ -15,7 +15,7 @@ class LoadActivity : AppCompatActivity() {
         buttonView.setOnClickListener {
             finish()
             val transitions = Transitions(this@LoadActivity)
-            transitions.setAnimation(Fade().In())
+            transitions.setAnimation(Fade().InDown())
         }
     }
 }
