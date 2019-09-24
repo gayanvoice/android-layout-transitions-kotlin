@@ -14,11 +14,11 @@ class Fade {
     }
 
     fun InLeft(): Array<Int>{
-        return arrayOf(R.anim.fade_in_left, R.anim.fade_out_left)
+        return arrayOf(R.anim.fade_in_left, R.anim.fade_out_right)
     }
 
     fun InRight(): Array<Int>{
-        return arrayOf(R.anim.fade_in_right, R.anim.fade_out_right)
+        return arrayOf(R.anim.fade_in_right, R.anim.fade_out_left)
     }
 
 
