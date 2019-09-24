@@ -3,7 +3,7 @@ package layout.transitions.demo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import android.widget.Button
 import layout.transitions.library.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val intent = Intent(this, LoadActivity::class.java)
 
-        val textView:TextView = findViewById(R.id.textView)
-        textView.setOnClickListener {
+        val buttonView: Button = findViewById(R.id.buttonView)
+        buttonView.setOnClickListener {
 
             startActivity(intent)
             val transitions = Transitions(this@MainActivity)
-            transitions.setAnimation(Rotate().In())
+            transitions.setAnimation(Fade().In())
 
         }
 
