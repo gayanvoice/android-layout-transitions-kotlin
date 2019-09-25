@@ -57,22 +57,26 @@ dependencies {
 ### Import render animations
 
 ```kotlin
+// kotlin
 import render.animations.*
 ```
 
 ### Start animation
 
-```java
-// Declare TextView
+```kotlin
+// kotlin
+
+// declare TextView
 val intent = Intent(this, LoadActivity::class.java)
 val buttonView: Button = findViewById(R.id.buttonView)
 
-// Create Render Class
-Render render = new Render(MainActivity.this);
 
-// Set Animation
+// go to view2
 buttonView.setOnClickListener {
+	// start intent
 	startActivity(intent)
+	
+	// set transition
 	val transitions = Transitions(this@MainActivity)
 	transitions.setAnimation(Slide().InRight())
 }
