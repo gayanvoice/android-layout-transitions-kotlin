@@ -4,7 +4,7 @@
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gayankuruppu/android-layout-transitions-kotlin)
 
-<img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/2-android-view-animations-java.1fe3487e.gif"> <img width="360" alt="Android View Animations in Java" src="https://gayankuruppu.github.io/android-view-animations-java/static/media/0-android-view-animations-java.57f29c80.gif">
+<img width="360" alt="Android Layout Transitions in Kotlin" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/0-app-animations.1a0c93af.gif">
 
 ## Get
 
