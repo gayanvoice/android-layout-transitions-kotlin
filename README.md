@@ -59,6 +59,9 @@ dependencies {
 ```kotlin
 // kotlin
 import render.animations.*
+
+// java
+import render.animations.*
 ```
 
 ### Start animation
@@ -80,4 +83,9 @@ buttonView.setOnClickListener {
 	val transitions = Transitions(this@MainActivity)
 	transitions.setAnimation(Slide().InRight())
 }
+
+// java
+Intent intetn = new Intent();
+Button buttonView = findViewById(R.id.buttonView);
+
 ```
