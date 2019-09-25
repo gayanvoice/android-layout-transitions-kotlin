@@ -33,7 +33,7 @@ dependencies {
 
 ### Maven
 
-1. Add this to `build.gradle` of project gradle dependency
+1. Add this to `build.gradle` of `project` gradle dependency
 
 ```xml
 <repositories>
@@ -44,7 +44,7 @@ dependencies {
 </repositories>
 ```
 
-2. Add this to `build.gradle` of module gradle dependency
+2. Add this to `build.gradle` of `module` gradle dependency
 
 ```xml
 <dependency>
@@ -130,4 +130,26 @@ The following classes are the transitions support by the library
 | `In`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/1-fade-in.ca83c538.gif">|    |     |
 
 
+### Flip
+| `Flip`            |                    |
+| ----------------- | ----------------- |
+| `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/6-flip-in-x.257f5c0b.gif">|
 
+### Rotate
+| `Flip`            |                    |
+| ----------------- | ----------------- |
+| `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/7-rotate-in.83eef598.gif">|
+
+### Zoom
+| `Flip`            |                    |
+| ----------------- | ----------------- |
+| `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/12-zoom-in.674069ad.gif">|
+
+## Develop the library
+
+1. Select `Git` from `Check out project from Version Control` in your Android Studio
+2. Paste the repository url and click `Clone` button
+3. Click `Yes` to open the repository
+4. `Build` using the latest `Gradle` version
+
+Go to https://github.com/gayankuruppu/android-vpn-client-ics-openvpn#develop see the steps
