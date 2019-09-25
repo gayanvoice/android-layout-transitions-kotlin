@@ -17,7 +17,7 @@ class LoadActivity : AppCompatActivity() {
             finish()
 
             val transitions = Transitions(this@LoadActivity)
-            transitions.setAnimation(Fade().InLeft())
+            transitions.setAnimation(Slide().InLeft())
 
         }
     }
