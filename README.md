@@ -55,24 +55,22 @@ dependencies {
 ```
 ## Usage
 ### Import render animations
-
+#### Kotlin
 ```kotlin
-// kotlin
 import render.animations.*
+```
 
-// java
+#### Java
+```java
 import render.animations.*;
 ```
 
 ### Start animation
-
+#### Kotlin
 ```kotlin
-// kotlin
-
 // declare TextView
 val intent = Intent(this, LoadActivity::class.java)
 val buttonView: Button = findViewById(R.id.buttonView)
-
 
 // go to view
 buttonView.setOnClickListener {
@@ -85,9 +83,10 @@ buttonView.setOnClickListener {
 	transitions.setAnimation(Slide().InRight())
 	
 }
+```
 
-// java
-
+#### Java
+```java
 // declare variables
 Intent myIntent = new Intent(CurrentActivity.this, NextActivity.class);
 Button buttonView = (Button) findViewById(R.id.buttonView);
@@ -105,6 +104,5 @@ buttonView.setOnClickListener( new OnClickListener() {
 		transitions.setAnimation(Slide().InRight());
 		
 	}
-});
-	
+});	
 ```
