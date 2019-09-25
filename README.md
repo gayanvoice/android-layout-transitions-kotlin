@@ -53,3 +53,27 @@ dependencies {
 	<version>1.0.0</version>
 </dependency>
 ```
+## Usage
+### Import render animations
+
+```kotlin
+import render.animations.*
+```
+
+### Start animation
+
+```java
+// Declare TextView
+val intent = Intent(this, LoadActivity::class.java)
+val buttonView: Button = findViewById(R.id.buttonView)
+
+// Create Render Class
+Render render = new Render(MainActivity.this);
+
+// Set Animation
+buttonView.setOnClickListener {
+	startActivity(intent)
+	val transitions = Transitions(this@MainActivity)
+	transitions.setAnimation(Slide().InRight())
+}
+```
