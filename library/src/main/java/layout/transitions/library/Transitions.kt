@@ -9,6 +9,4 @@ class Transitions(private val context: Context) {
     fun setAnimation(effects: Array<Int>) {
         (context as Activity).overridePendingTransition(effects[0], effects[1])
     }
-
-
 }

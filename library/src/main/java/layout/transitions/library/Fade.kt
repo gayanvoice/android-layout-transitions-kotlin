@@ -20,7 +20,4 @@ class Fade {
     fun InRight(): Array<Int>{
         return arrayOf(R.anim.fade_in_right, R.anim.fade_out_left)
     }
-
-
-
 }

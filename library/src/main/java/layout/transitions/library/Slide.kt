@@ -14,10 +14,7 @@ class Slide {
         return arrayOf(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 
-    fun InRight(): Array<Int>{
+    fun InRight(): Array<Int> {
         return arrayOf(R.anim.slide_in_right, R.anim.slide_out_left)
     }
-
-
-
 }
