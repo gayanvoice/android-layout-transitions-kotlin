@@ -114,9 +114,20 @@ The following classes are the transitions support by the library
 
 | Class Name  |             |             |             |             |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| `Slide`      | `Fade      |  `Flip`     | `Rotate`    | `Zoom`      |
+| `Slide`      | `Fade`     |  `Flip`     | `Rotate`    | `Zoom`      |
 
 ### Slide
 | `Slide`           |                    |  		      |                    |
 | ----------------- | ------------------ | ------------------ | ------------------ |
 | `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/9-slide-in-left.f24d3999.gif">| `InRight`              |<img width="200" alt="Slide In Right" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/10-slide-in-right.d01700f5.gif">|
+| `InUp`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/8-slide-in-down.3f151b67.gif">| `InDown`              |<img width="200" alt="Slide In Right" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/11-slide-in-up.c849a670.gif">|
+
+### Fade
+| `Fade`           |                    |  		      |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/3-fade-in-left.6bb32f18.gif">| `InRight`              |<img width="200" alt="Slide In Right" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/4-fade-in-right.fb8cef3c.gif">|
+| `InUp`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/2-fade-in-down.a3df9411.gif">| `InDown`              |<img width="200" alt="Slide In Right" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/5-fade-ip-up.88f31455.gif">|
+| `In`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/1-fade-in.ca83c538.gif">|    |     |
+
+
+
