@@ -1,16 +1,28 @@
 {
   "files": {
     "main.css": "/android-layout-transitions-kotlin/static/css/main.b100e6da.chunk.css",
-    "main.js": "/android-layout-transitions-kotlin/static/js/main.8e293a33.chunk.js",
-    "main.js.map": "/android-layout-transitions-kotlin/static/js/main.8e293a33.chunk.js.map",
+    "main.js": "/android-layout-transitions-kotlin/static/js/main.28c6a05a.chunk.js",
+    "main.js.map": "/android-layout-transitions-kotlin/static/js/main.28c6a05a.chunk.js.map",
     "runtime-main.js": "/android-layout-transitions-kotlin/static/js/runtime-main.68e8446c.js",
     "runtime-main.js.map": "/android-layout-transitions-kotlin/static/js/runtime-main.68e8446c.js.map",
-    "static/js/2.da60ccce.chunk.js": "/android-layout-transitions-kotlin/static/js/2.da60ccce.chunk.js",
-    "static/js/2.da60ccce.chunk.js.map": "/android-layout-transitions-kotlin/static/js/2.da60ccce.chunk.js.map",
+    "static/js/2.05423e86.chunk.js": "/android-layout-transitions-kotlin/static/js/2.05423e86.chunk.js",
+    "static/js/2.05423e86.chunk.js.map": "/android-layout-transitions-kotlin/static/js/2.05423e86.chunk.js.map",
     "index.html": "/android-layout-transitions-kotlin/index.html",
-    "precache-manifest.f532e97f0ebba06b8801d056abe04f95.js": "/android-layout-transitions-kotlin/precache-manifest.f532e97f0ebba06b8801d056abe04f95.js",
+    "precache-manifest.be07a34a8a6cc0146773653a873cdc3e.js": "/android-layout-transitions-kotlin/precache-manifest.be07a34a8a6cc0146773653a873cdc3e.js",
     "service-worker.js": "/android-layout-transitions-kotlin/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/android-layout-transitions-kotlin/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/android-layout-transitions-kotlin/static/media/logo.25bf045c.svg"
+    "static/media/0-app-animations.gif": "/android-layout-transitions-kotlin/static/media/0-app-animations.ed357e55.gif",
+    "static/media/1-fade-in.gif": "/android-layout-transitions-kotlin/static/media/1-fade-in.ca83c538.gif",
+    "static/media/10-slide-in-right.gif": "/android-layout-transitions-kotlin/static/media/10-slide-in-right.d01700f5.gif",
+    "static/media/11-slide-in-up.gif": "/android-layout-transitions-kotlin/static/media/11-slide-in-up.c849a670.gif",
+    "static/media/12-zoom-in.gif": "/android-layout-transitions-kotlin/static/media/12-zoom-in.674069ad.gif",
+    "static/media/2-fade-in-down.gif": "/android-layout-transitions-kotlin/static/media/2-fade-in-down.a3df9411.gif",
+    "static/media/3-fade-in-left.gif": "/android-layout-transitions-kotlin/static/media/3-fade-in-left.6bb32f18.gif",
+    "static/media/4-fade-in-right.gif": "/android-layout-transitions-kotlin/static/media/4-fade-in-right.fb8cef3c.gif",
+    "static/media/5-fade-ip-up.gif": "/android-layout-transitions-kotlin/static/media/5-fade-ip-up.88f31455.gif",
+    "static/media/6-flip-in-x.gif": "/android-layout-transitions-kotlin/static/media/6-flip-in-x.257f5c0b.gif",
+    "static/media/7-rotate-in.gif": "/android-layout-transitions-kotlin/static/media/7-rotate-in.83eef598.gif",
+    "static/media/8-slide-in-down.gif": "/android-layout-transitions-kotlin/static/media/8-slide-in-down.3f151b67.gif",
+    "static/media/9-slide-in-left.gif": "/android-layout-transitions-kotlin/static/media/9-slide-in-left.f24d3999.gif"
   }
 }
