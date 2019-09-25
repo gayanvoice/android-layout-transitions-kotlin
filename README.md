@@ -61,7 +61,7 @@ dependencies {
 import render.animations.*
 
 // java
-import render.animations.*
+import render.animations.*;
 ```
 
 ### Start animation
@@ -74,18 +74,37 @@ val intent = Intent(this, LoadActivity::class.java)
 val buttonView: Button = findViewById(R.id.buttonView)
 
 
-// go to view2
+// go to view
 buttonView.setOnClickListener {
+
 	// start intent
 	startActivity(intent)
 	
 	// set transition
 	val transitions = Transitions(this@MainActivity)
 	transitions.setAnimation(Slide().InRight())
+	
 }
 
 // java
-Intent intetn = new Intent();
-Button buttonView = findViewById(R.id.buttonView);
 
+// declare variables
+Intent myIntent = new Intent(CurrentActivity.this, NextActivity.class);
+Button buttonView = (Button) findViewById(R.id.buttonView);
+
+// go to view
+buttonView.setOnClickListener( new OnClickListener() {
+	@Override
+	public void onClick(View v) {
+	
+		// start intent
+		startActivity(intent);
+
+		// set transition
+		Transitions transitions = Transitions(MainActivity.this);
+		transitions.setAnimation(Slide().InRight());
+		
+	}
+});
+	
 ```
