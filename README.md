@@ -59,12 +59,12 @@ dependencies {
 ### Import render animations
 #### Kotlin
 ```kotlin
-import render.animations.*
+import layout.transitions.library.*
 ```
 
 #### Java
 ```java
-import render.animations.*;
+import layout.transitions.library.*;
 ```
 
 ### Start animation
