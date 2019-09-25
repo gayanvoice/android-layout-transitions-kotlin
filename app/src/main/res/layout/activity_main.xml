@@ -7,24 +7,12 @@
     android:background="@color/colorMain"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/fade_in"
-        android:textStyle="bold"
-        android:textAllCaps="true"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_activity"
+        android:text="@string/button_main"
         style="@style/Widget.AppCompat.Button.Colored"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
