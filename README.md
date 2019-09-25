@@ -12,7 +12,7 @@
 
 ### Gradle
 
-1. Add this to `build.gradle` of project gradle dependency
+1. Add this to `build.gradle` of `project` gradle dependency
 
 ```groovy
 allprojects {
@@ -23,7 +23,7 @@ allprojects {
 }
 ```
 
-2. Add this to `build.gradle` of app gradle dependency
+2. Add this to `build.gradle` of `app` gradle dependency
 
 ```groovy
 dependencies {
