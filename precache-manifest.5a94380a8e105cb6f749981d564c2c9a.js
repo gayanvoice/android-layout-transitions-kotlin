@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e58d5a4630f63c0a701a64fd427e0dbc",
+    "revision": "cbc885f9213ce21c94ce04061c62050d",
     "url": "/android-layout-transitions-kotlin/index.html"
   },
   {
-    "revision": "8913af362e9004a9ce86",
+    "revision": "1729a74afa304737f033",
     "url": "/android-layout-transitions-kotlin/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/android-layout-transitions-kotlin/static/js/2.05423e86.chunk.js"
   },
   {
-    "revision": "8913af362e9004a9ce86",
-    "url": "/android-layout-transitions-kotlin/static/js/main.28c6a05a.chunk.js"
+    "revision": "1729a74afa304737f033",
+    "url": "/android-layout-transitions-kotlin/static/js/main.0a4f836f.chunk.js"
   },
   {
     "revision": "babe7364de0da510d074",
     "url": "/android-layout-transitions-kotlin/static/js/runtime-main.68e8446c.js"
   },
   {
-    "revision": "ed357e55f1bcd70a25afb953e6d9661e",
-    "url": "/android-layout-transitions-kotlin/static/media/0-app-animations.ed357e55.gif"
+    "revision": "1a0c93afa4ee626a82acc88f1d605b92",
+    "url": "/android-layout-transitions-kotlin/static/media/0-app-animations.1a0c93af.gif"
   },
   {
     "revision": "ca83c538b1e77284cd1eb6ce46c26952",

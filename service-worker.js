@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/android-layout-transitions-kotlin/precache-manifest.be07a34a8a6cc0146773653a873cdc3e.js"
+  "/android-layout-transitions-kotlin/precache-manifest.5a94380a8e105cb6f749981d564c2c9a.js"
 );
 
 self.addEventListener('message', (event) => {
