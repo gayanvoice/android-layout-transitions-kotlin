@@ -1,4 +1,5 @@
 # Android Layout Transitions
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/gayankuruppu/android-layout-transitions-kotlin.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/gayankuruppu/android-layout-transitions-kotlin/context:java)
 [![Build Status](https://travis-ci.org/gayankuruppu/android-layout-transitions-kotlin.svg?branch=master)](https://travis-ci.org/gayankuruppu/android-layout-transitions-kotlin)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/gayankuruppu/android-layout-transitions-kotlin.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/gayankuruppu/android-layout-transitions-kotlin/alerts/)
 [![](https://jitpack.io/v/gayankuruppu/android-layout-transitions-kotlin.svg)](https://jitpack.io/#gayankuruppu/android-layout-transitions-kotlin)
