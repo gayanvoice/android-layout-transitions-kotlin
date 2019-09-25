@@ -106,3 +106,17 @@ buttonView.setOnClickListener( new OnClickListener() {
 	}
 });	
 ```
+
+## Transitions
+
+To animate the layout, create Transitions class and set the method name and specific transition method name to `setAnimation` method.
+The following classes are the transitions support by the library
+
+| Class Name  |             |             |             |             |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| `Slide`      | `Fade      |  `Flip`     | `Rotate`    | `Zoom`      |
+
+### Slide
+| `Slide`           |                    |  		      |                    |
+| ----------------- | ------------------ | ------------------ | ------------------ |
+| `InLeft`|<img width="200" alt="Slide In Left" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/9-slide-in-left.f24d3999.gif">| `InRight`              |<img width="200" alt="Slide In Right" src="https://gayankuruppu.github.io/android-layout-transitions-kotlin/static/media/10-slide-in-right.d01700f5.gif">|
